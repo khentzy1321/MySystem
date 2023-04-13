@@ -1,0 +1,80 @@
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.edit button{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#editbtn i{
+    text-decoration: none;
+    color: white;
+}
+.edit{
+    position: relative;
+    top:78%;
+    left: 79%;
+}
+
+/* p{
+    font-size: 15px;
+    color: #868d9b;
+} */
+
+.card {
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.user_details p {
+    margin-bottom: 20px;
+    margin-top: -5px;
+
+}
+
+.user_details h2 {
+    margin-top: 10px;
+}
+
+.card_count {
+    padding: 30px;
+    margin-top: -100px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.count p {
+    margin-top: -10px;
+}
+.editbgview{
+    position: relative;
+    left: 90%;
+    top: 10%;
+}
+.editbgview button{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.editbgview i{
+    color: white;
+
+}

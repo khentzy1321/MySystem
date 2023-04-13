@@ -1,0 +1,432 @@
+img{
+	width: 100%;
+}
+.area{
+    background-image: linear-gradient(rgba(48, 48, 48, 0.808),rgba(0, 0, 0, 0.432)), url(../images/bg3.jpg);
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+
+
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+.fields i {
+    position: relative;
+    left: 10px;
+    top: 37px;
+    transform: translateY(-50%);
+    color: #818181;
+  }
+ form h1{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -350px;
+}
+.left form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    position: relative;
+}
+
+.field-set{
+    position: relative;
+    margin-top: 55px;
+}
+.home{
+    font-size: 40px;
+    position: absolute;
+    margin-top: 100%;
+
+}
+.home a{
+    color: white;
+    text-decoration: none;
+}
+.invalid-feedback {
+    position: absolute;
+    display: none;
+    width: 100%;
+    margin-top: -3px;
+    font-size: 12px;
+    color: #dc3545;
+  }
+
+form .fields{
+
+position: relative;
+}
+form .fields input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    padding-left: 30px;
+    outline: none;
+    border-style: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+form .fields span{
+    position: absolute;
+    margin-left: -230px;
+    margin-top: 35px;
+}
+
+.btn-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 0 10px 0;
+}
+.social-acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    column-gap:15px;
+}
+.social-acc img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    border-radius: 50%;
+    outline: solid #fff;
+    transition-property: outline, offset, outline-color, background-color;
+    transition-duration: 0.25s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.social-acc img:hover{
+    outline-offset: 4px;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+.login_box {
+    width: 1050px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.left{
+  width: 41%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-image: linear-gradient(rgba(48, 48, 48, 0.808),rgba(0, 0, 0, 0.432)), url(../images/gjo.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+    background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.right{
+  position: absolute;
+  width: 59%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.right {
+	color: #fff;
+	position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.bubble {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/login2.jpg);
+    position: absolute;
+  }
+ .bubble h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 888;
+    text-transform: uppercase;
+  }
+ .bubble div {
+    height: 60px;
+    width: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: 4s linear infinite;
+  }
+  div .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 20%;
+    right: 20%;
+  }
+ .bubble div:nth-child(1) {
+    top: 20%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+  }
+ .bubble div:nth-child(2) {
+    top: 60%;
+    left: 80%;
+    animation: animate 10s linear infinite;
+  }
+ .bubble div:nth-child(3) {
+    top: 40%;
+    left: 40%;
+    animation: animate 3s linear infinite;
+  }
+ .bubble div:nth-child(4) {
+    top: 66%;
+    left: 30%;
+    animation: animate 7s linear infinite;
+  }
+ .bubble div:nth-child(5) {
+    top: 90%;
+    left: 10%;
+    animation: animate 9s linear infinite;
+  }
+ .bubble div:nth-child(6) {
+    top: 30%;
+    left: 60%;
+    animation: animate 5s linear infinite;
+  }
+ .bubble div:nth-child(7) {
+    top: 70%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+  }
+ .bubble div:nth-child(8) {
+    top: 75%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+  }
+ .bubble div:nth-child(9) {
+    top: 50%;
+    left: 50%;
+    animation: animate 6s linear infinite;
+  }
+ .bubble div:nth-child(10) {
+    top: 45%;
+    left: 20%;
+    animation: animate 10s linear infinite;
+  }
+ .bubble div:nth-child(11) {
+    top: 10%;
+    left: 90%;
+    animation: animate 9s linear infinite;
+  }
+ .bubble div:nth-child(12) {
+    top: 20%;
+    left: 70%;
+    animation: animate 7s linear infinite;
+  }
+ .bubble div:nth-child(13) {
+    top: 20%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+  }
+ .bubble div:nth-child(14) {
+    top: 60%;
+    left: 5%;
+    animation: animate 6s linear infinite;
+  }
+ .bubble div:nth-child(15) {
+    top: 90%;
+    left: 80%;
+    animation: animate 9s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      transform: scale(0) translateY(0) rotate(70deg);
+    }
+    100% {
+      transform: scale(1.3) translateY(-100px) rotate(360deg);
+    }
+  }
+
+  /** lodinforms **/
+@media (max-width: 890px){
+      .area{
+        height: 100vh;
+        max-width: 550px;
+        overflow: hidden;
+
+    }
+    .login_box{
+        transform: none;
+        width: revert;
+        height: 100vh;
+        position: revert;
+
+}
+     .left {
+        position: revert;
+        width: 100%;
+        height: 100vh;
+
+    }
+    .right{
+        display: none;
+
+    }
+}
